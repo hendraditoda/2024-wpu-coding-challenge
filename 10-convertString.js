@@ -1,6 +1,6 @@
 // WPU Coding Challenge 2024
-// 9/366
-// https://www.codewars.com/kata/577a98a6ae28071780000989
+// 10/366
+// https://www.codewars.com/kata/57e76bc428d6fbc2d500036d
 
 function stringToArray(string) {
   return string.split(' ');
