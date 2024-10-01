@@ -1,6 +1,6 @@
 // WPU Coding Challenge 2024
 // 8/366
-// https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/javascript
+// https://www.codewars.com/kata/5b077ebdaf15be5c7f000077
 
 // var countSheep = function (num) {
 //   //your code here
@@ -17,6 +17,7 @@
 //   return [...Array(num)].map((_, i) => `${i + 1} sheep...`).join('');
 // };
 
-const countSheep = (num) => [...Array(num)].map((_, i) => `${i + 1} sheep...`).join('');
+const countSheep = (num) =>
+  [...Array(num)].map((_, i) => `${i + 1} sheep...`).join("");
 
 console.log(countSheep(3));

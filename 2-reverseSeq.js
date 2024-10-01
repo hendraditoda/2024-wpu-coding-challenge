@@ -9,6 +9,7 @@
 //   }
 //   return result;
 // };
+
 // const reverseSeq = (n) => [...Array(n)].map((el, i) => i + 1).reverse();
 
 const reverseSeq = (n) => [...Array(n)].map((el, i) => n - i);
