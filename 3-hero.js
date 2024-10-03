@@ -11,9 +11,9 @@
 //   }
 // }
 
-function hero(bullets, dragons) {
-  return bullets / 2 >= dragons ? true : false;
-}
+// function hero(bullets, dragons) {
+//   return bullets / 2 >= dragons ? true : false;
+// }
 
 const hero = (bullets, dragons) => bullets / 2 >= dragons;
 
